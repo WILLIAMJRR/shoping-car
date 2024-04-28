@@ -10,11 +10,6 @@ const Login = lazy(() => import("../pages/LoginPage"));
 
 const Signup = lazy(() => import("../pages/RegistroUsuario"));
 
-const HomePage1 = lazy(() => import("../pages/RegistroUsuario"));
-const Signup1 = lazy(() => import("../pages/RegistroUsuario"));
-
-// const Netflix = lazy(() => import("../../pages/netflix/Netflix"));
-
 
 export const router = createBrowserRouter(
 	[
